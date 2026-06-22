@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "阿里云百炼",
+    "provider": "dashscope",
+    "models": [
+      "qwen-max"
+    ],
+    "enabled": true,
+    "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "keyPreview": "sk-2a8f4c19d7b65e03ef",
+    "latency": "320ms"
+  },
+  {
+    "id": "2",
+    "name": "DeepSeek",
+    "provider": "deepseek",
+    "models": [
+      "deepseek-reasoner-v4"
+    ],
+    "enabled": false,
+    "endpoint": "https://api.deepseek.com/v1",
+    "keyPreview": "sk-9c3e7f21a8b40d56cd",
+    "latency": "450ms"
+  }
+]
